@@ -54,4 +54,4 @@ def decrypt(text=''):
 
     # Printing what has been fully treated.
     for line_ in list1:
-        print(f'{line_}', end='')
+        print(f'\033[32m{line_}\033[m', end='')

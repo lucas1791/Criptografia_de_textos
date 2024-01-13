@@ -51,4 +51,4 @@ def encrypt(text=''):
 
     # Printing the encrypted text.
     for line in list1:
-        print(f'{line}', end='')
+        print(f'\033[33m{line}\033[m', end='')
