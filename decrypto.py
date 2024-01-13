@@ -9,7 +9,7 @@ def decrypt(text=''):
     Returns:
     (str): This function only returns the decrypted text.
     '''
-    text = input('Enter the text to be decrypted: ')  # Input of the (encrypted) text.
+    text = input('\033[36mEnter the text to be decrypted: \033[m')  # Input of the (encrypted) text.
     list1 = []
     list2 = []
     list3 = []
